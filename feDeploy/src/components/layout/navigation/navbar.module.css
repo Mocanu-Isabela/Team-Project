@@ -1,0 +1,35 @@
+.nav {
+    background-color: var(--color-secondary);
+    height: 75px;
+    max-height: 75px;
+    color: white;
+}
+
+.navbtnlist {
+    list-style-type: none;
+    gap: 50px;
+    padding-left: 0 !important;
+    color: white;
+}
+
+.logout {
+    margin-right: -5px;
+}
+
+.navBtn {
+    background-color: var(--color-primary);
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.navText {
+    color: white;
+    text-decoration: none;
+}
+
+.navbtnlist a, a:active {
+    text-decoration: none;
+    color: white;
+}
